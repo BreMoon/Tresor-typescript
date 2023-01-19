@@ -11,8 +11,13 @@ export class aktie extends Gegenstand {
   }
 
   toString(): string {
-    let text: string = '\nUnternehmen: ' + this.unternehmen + '\nUnternehmen' + this.nennwert;
+    let text: string =
+      '\nUnternehmen: ' + this.unternehmen + '\nUnternehmen' + this.nennwert;
     text += super.toString();
     return text;
   }
 }
+
+/** Backslash
+„\“„\“„\“„\“
+*/
